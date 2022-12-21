@@ -13,7 +13,6 @@ public class Block {
             finalQuant=49;;
         }
         numbers = new int[finalQuant];
-        //FALTE ADD QUANTITIY OF RANDOM NUMBERS
         int possibleNumber;
         boolean repet=true;
         for (int i=0; i<quantNumbers;i++){
@@ -39,7 +38,7 @@ public class Block {
             }
         }
         return false;
-    }
+}
 
     @Override
     public String toString() {
